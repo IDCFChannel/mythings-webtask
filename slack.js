@@ -12,7 +12,7 @@ module.exports = function(ctx, cb) {
         form: {
             'time': new Date().toISOString()
         }
-    }, function(err,httpResponse,body){
-        cb(null, body);
+    }, function(err, response, body){
+        cb(null, response);
     });
 };
