@@ -1,0 +1,12 @@
+{
+    "name": "mythings-webtask",
+    "description": "mythings-webtask",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "request": "~2.65.0"
+    },
+    "scripts": {
+        "start": "node slack.js"
+    }
+}
