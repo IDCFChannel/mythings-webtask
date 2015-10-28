@@ -40,7 +40,7 @@ $ wt create https://raw.githubusercontent.com/IDCFChannel/mythings-webtask/maste
 `wt create`コマンドで表示されるURLをローカルで手動実行してテストする。
 
 ```bash
-$ curl "https://webtask.it.auth0.com/api/run/{container}/{name}?key={key}&host={url}&uuid={uuid}&token={token}&webtask_no_cache=1"
+$ curl "https://webtask.it.auth0.com/api/run/{container}/{name}?key={key}&host={host}&uuid={uuid}&token={token}&webtask_no_cache=1"
 ```
 
 動作したらURLをHackeyのアクションに追加する。
