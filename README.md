@@ -1,5 +1,13 @@
 # myThings x Hackey x webtask.ioのサンプル
 
+## インストール
+
+[webtask.io](https://webtask.io)にサインアップして、[CLI](https://webtask.io/cli)をインストールする。
+
+```bash
+$ npm install wt-cli -g
+```
+
 ## 使い方
 
 ローカルでIDCF Channelに`HTTP POST /data`するNode.jsのプログラムを用意する。
